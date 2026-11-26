@@ -39,9 +39,9 @@ Performs the selected action, then returns here.
 --------------------------------------------
  ID  | Task                         | Done  | Priority
 -----|------------------------------|-------|---------
- 1   | SocSci — Read Chapter 3      | Yes   | High
- 2   | Bio — Complete Lab Report    | No    | High
- 3   | Chem — Answer Problem Set     | No    | Normal
+ 1   | SocSci - Read Chapter 3      | Yes   | High
+ 2   | Bio - Complete Lab Report    | No    | High
+ 3   | Chem - Answer Problem Set     | No    | Normal
 --------------------------------------------
  Progress: 1/3 tasks completed (33%)
 
