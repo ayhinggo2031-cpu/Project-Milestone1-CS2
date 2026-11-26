@@ -11,9 +11,9 @@
       "tasks": [
         {
           "task_id": 1,
-          "title": "Prepare for English Report",
+          "title": "Prepare for upcoming English Report",
           "is_done": true,
-          "priority": "high"
+          "priority": "High"
         }
       ],
       "study_minutes": 30
