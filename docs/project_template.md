@@ -7,7 +7,7 @@ Student Daily Planner & Streak Tracker
 The Student Daily Planner & Streak Tracker is a console-based application that helps students organize daily tasks, track completion progress, and stay motivated through a streak system. Users can add tasks, mark them as complete, view their task history, track study time, and set reminders. All data, including task history, completion streaks, study logs, and reminders is permanently stored in JSON files, allowing the application to display meaningful insights such as completion rates, productivity trends, and longest active streaks over time.
 
 ## 3. Problem Statement
-Students often struggle to keep track of assignments, study goals, and deadlines. Paper planners are easily lost or forgotten, and digital apps can be distracting or inaccessible. Without a clear record of completed work, it is difficult to monitor productivity patterns or maintain consistent study habits. There is a need for a simple, offline tool that permanently stores task history, visualizes progress through completion streaks, and generates personal productivity insights — all without requiring internet access or complex setup.
+Students often struggle to keep track of assignments, study goals, and deadlines. Paper planners are easily lost or forgotten, and digital apps can be distracting or inaccessible. Without a clear record of completed work, it is difficult to monitor productivity patterns or maintain consistent study habits. There is a need for a simple, offline tool that permanently stores task history, visualizes progress through completion streaks, and generates personal productivity insights all without requiring internet access or complex setup.
 
 ## 4. Outline of Features
 
