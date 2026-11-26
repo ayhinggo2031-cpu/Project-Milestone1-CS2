@@ -23,8 +23,6 @@ Students often struggle to keep track of assignments, study goals, and deadlines
 | Reminders | Add and view upcoming tasks and deadlines | Date comparison | Stores and retrieves reminder entries |
 | Save & Load Data | Automatically persist data on exit; restore on launch | File handling, JSON | Enables persistent data across sessions |
 
-Full CRUD operations supported — Create, Read, Update, Delete
-
 ## 5. Persistent Data Structure
 
 All data is stored in /data/student_data.json
