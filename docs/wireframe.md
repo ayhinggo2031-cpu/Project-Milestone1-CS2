@@ -1,18 +1,8 @@
-# Wireframe
+# Wireframe — Student Daily Planner & Streak Tracker
 
 ## Program Flow Overview
 
-      START
-        |
-   ┌────┴────┐
-   │MAIN MENU| <------┐
-   └────┬────┘        |
-        |             |
-   ┌────┴────┐        |
-   │OPTIONS  │ ------>|  Select option -> Perform action -> Return to Main Menu
-   └────┬────┘        |
-        |             |
-    0. EXIT ---------> END
+START → Main Menu → Choose Option → Perform Action → Return to Main Menu → Exit → END
 
 
 ## Screen 1 — Main Menu
@@ -25,14 +15,11 @@
 
       Today: 2026-11-26
 
-      -------- TASKS --------
       1. View Today's Checklist
       2. Add New Task
       3. Mark Task as Done
       4. Edit Task
       5. Delete Task
-
-      -------- TOOLS --------
       6. View History & Statistics
       7. Start Study Timer
       8. View Reminders
@@ -49,13 +36,13 @@ Performs the selected action, then returns here.
 
 --------------------------------------------
      TASKS — 2026-11-26
------|------------------------------|-------|---------
+--------------------------------------------
  ID  | Task                         | Done  | Priority
 -----|------------------------------|-------|---------
  1   | SocSci — Read Chapter 3      | Yes   | High
  2   | Bio — Complete Lab Report    | No    | High
  3   | Chem — Answer Problem Set     | No    | Normal
------|------------------------------|-------|---------
+--------------------------------------------
  Progress: 1/3 tasks completed (33%)
 
  Enter task number to toggle status, or 0 to go back: _
@@ -84,39 +71,39 @@ C to cancel -> Discard -> Return to Main Menu
 --------------------------------------------
      HISTORY & STATISTICS
 --------------------------------------------
-     Current Streak: 5 Days
-     Longest Streak: 12 Days
+ Current Streak: 5 Days
+ Longest Streak: 12 Days
 
-     THIS WEEK
-     Total Tasks: 18     Completed: 15
-     Completion Rate: 83%
+ This Week:
+ Total Tasks: 18
+ Completed: 15
+ Completion Rate: 83%
 
-     STUDY TIME LOGGED
-     Today: 45 minutes
-     This Week: 5 hours 30 minutes
-     Daily Average: 47 minutes
+ Study Time:
+ Today: 45 minutes
+ This Week: 5 hours 30 minutes
+ Daily Average: 47 minutes
 
-     Press Enter to go back...
---------------------------------------------
+ Press Enter to go back...
 
 Flow: Reads all stored data and calculates summary values
-Press Enter -> Return to Main Menu
+Press Enter to return to Main Menu
 
 
 ## Screen 5 — Reminders
 
 --------------------------------------------
      UPCOMING REMINDERS
------|------------------------------|-------------
+--------------------------------------------
  #   | Item                         | Due Date
------|------------------------------|-------------
+-----|------------------------------|-----------
  1   | SocSci Chapter 3 Quiz        | Nov 27
  2   | Bio Lab Report Due           | Nov 28
  3   | Chem Long Quiz               | Nov 30
------|------------------------------|-------------
+--------------------------------------------
 
  [1] Mark Complete     [2] Add New     [0] Back
  Enter choice: _
 
 Flow: Select action -> Update saved data -> Refresh list
-Enter 0 -> Return to Main Menu
+Enter 0 to return to Main Menu
