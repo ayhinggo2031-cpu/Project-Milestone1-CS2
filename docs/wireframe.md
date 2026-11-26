@@ -1,11 +1,11 @@
-# Wireframe — Student Daily Planner & Streak Tracker
+# Wireframe 
 
 ## Program Flow Overview
 
 START → Main Menu → Choose Option → Perform Action → Return to Main Menu → Exit → END
 
 
-## Screen 1 — Main Menu
+## Screen 1 (Main Menu)
 
 ============================================
      STUDENT DAILY PLANNER & STREAK TRACKER
@@ -32,7 +32,7 @@ Flow: User enters a number and presses Enter.
 Performs the selected action, then returns here.
 
 
-## Screen 2 — View Today's Tasks
+## Screen 2 (View Today's Tasks)
 
 --------------------------------------------
      TASKS — 2026-11-26
@@ -51,7 +51,7 @@ Flow: Enter task number -> Mark as done/not done -> Auto-save -> Refresh list
 Enter 0 -> Return to Main Menu
 
 
-## Screen 3 — Add New Task
+## Screen 3 (Add New Task)
 
 --------------------------------------------
      ADD NEW TASK
@@ -66,7 +66,7 @@ Flow: Enter task details -> S to save -> Task added -> Return to Main Menu
 C to cancel -> Discard -> Return to Main Menu
 
 
-## Screen 4 — History & Statistics
+## Screen 4 (History & Statistics)
 
 --------------------------------------------
      HISTORY & STATISTICS
@@ -90,7 +90,7 @@ Flow: Reads all stored data and calculates summary values
 Press Enter to return to Main Menu
 
 
-## Screen 5 — Reminders
+## Screen 5 (Reminders)
 
 --------------------------------------------
      UPCOMING REMINDERS
