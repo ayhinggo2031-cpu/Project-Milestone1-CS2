@@ -1,1 +1,29 @@
-
+{
+  "profile": {
+    "current_streak": 5,
+    "longest_streak": 12,
+    "last_completed_date": "2026-11-22",
+    "total_tasks_completed": 47
+  },
+  "daily_tasks": [
+    {
+      "date": "2026-11-22",
+      "tasks": [
+        {
+          "task_id": 1,
+          "title": "Prepare for English Report",
+          "is_done": true,
+          "priority": "high"
+        }
+      ],
+      "study_minutes": 30
+    }
+  ],
+  "reminders": [
+    {
+      "title": "Math Project Due",
+      "due_date": "2026-11-25",
+      "is_complete": false
+    }
+  ]
+}
